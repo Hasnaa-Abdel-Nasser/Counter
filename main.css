@@ -32,9 +32,15 @@ p{
     background-color: black;
     color: white;
 }
-@media(max-width : 750px) {
+@media(max-width : 600px) {
+    p{
+        font-size: 70px;
+    }
     .button-style{
         margin-bottom: 11px;
+        padding: 7px 0;
+        font-size: 15px;
+        font-weight: 400;
     }
     .buttons{
         flex-direction: column
